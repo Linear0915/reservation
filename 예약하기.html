@@ -1,0 +1,143 @@
+﻿<div id="wrapperHeader">
+    <div id="header">
+        <img src="Head0.png" width="1920" height="300" alt="Head0" />
+    </div>
+</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>고양이 카페 : 고양아 멍멍 울어봐 </title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .bottomright {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #contents {
+            min-height: 100%;
+        }
+
+        .bg-1 {
+            background-color: #f3b121;
+            color: white;
+        }
+
+        .bg-4 {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="container-fluid collapse navbar-collapse bg-1">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!--<li class="active"><a href="#">Home</a></li>-->
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/1120MISPD%ED%95%9C%EA%B8%80%EA%B9%A8%EC%A7%90%ED%95%B4%EA%B2%B0/sample.html">홈</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EA%B3%BC%EC%A0%9C/%EB%A9%94%EB%89%B4.html">메뉴</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EA%B3%BC%EC%A0%9C/%EC%A0%9C%EA%B3%B5%EC%84%9C%EB%B9%84%EC%8A%A4.html">서비스</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EC%84%B1%ED%98%84%EC%9D%B4/%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0.html">예약</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%ED%83%9C%EC%83%81%EC%9D%B4%ED%98%951/%ED%83%9C%EC%83%81%20%ED%8C%8C%ED%8A%B8.html">게시판</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EC%A4%80%ED%95%98%ED%98%95/login.html">로그인</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EC%A4%80%ED%95%98%ED%98%95/join.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--
+                        ��� ���Կ� ���� 2
+                      <div class="container-fluid bg-1 text-center">
+
+                            <img src="Head0.png" alt="head" style="widows: 90%">
+                        </div>
+    -->
+
+
+    
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <!--고양이사진1-->
+            <div class="col-sm-4">
+                
+                <img src="cat1.png" alt="cat1" style="width:80%" />
+            </div>
+            <!--고양이사진1-->
+            <!--달력 사진-->
+            <div class="col-sm-4">
+                <span style=" font-size:2.5em; color:black;">
+                   고양이 카페에 오신것을 환영합니다
+                </span>
+                <img src="12월 달력.png" alt="12월" style="width:90%" />
+            </div>
+            <!--달력 사진-->
+
+                        <!--고양이사진3-->
+                        <div class="col-sm-4">
+                
+                            <img src="cat2.png" alt="cat2" style="width:70%" nvbal-top/>
+                        </div>
+                        <!--고양이사진3-->        
+                    </div>
+        <!--예약버튼-->
+            
+            <form action="/my-handling-form-page" method="post" >
+                <div>
+                    <label for="date">예약일자:</label>
+                    <input type="date" id="date" name="date" />   
+                </div>
+                <div>
+                    <label for="msg">요청사항:</label>
+                    <textarea id="msg" text="user_message"></textarea>
+                </div>
+                
+                <div class="button">
+                    <button type="submit" onclick="window.open='예약이완료되었습니다!.html'">예약하기</button>
+                </div>
+            </form>
+            <!--예약버튼-->
+            
+
+    </div>
+
+</body>
+
+
+<footer class="container-fluid bg-4 text-center">
+    SeoulTech.Univ.MISPD &nbsp; &nbsp; 조장:김준하 &nbsp; &nbsp; 조원:김종화, 정태상, 정수민, 최성현
+</footer>
+
+</html>
